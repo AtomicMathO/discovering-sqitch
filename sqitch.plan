@@ -4,3 +4,5 @@
 
 appschema 2022-04-02T09:12:27Z Mathieu <mathieu@example.com> # Add schema for all flipr objects.
 users [appschema] 2022-04-02T09:27:21Z Mathieu <mathieu@example.com> # Creates table to track our users.
+insert_user [users appschema] 2022-04-02T09:36:06Z Mathieu <mathieu@example.com> # Creates a function to insert a user.
+change_pass [users appschema] 2022-04-02T09:36:15Z Mathieu <mathieu@example.com> # Creates a function to change a user password.
