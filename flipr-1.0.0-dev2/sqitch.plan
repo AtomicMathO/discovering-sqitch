@@ -12,7 +12,3 @@ flips [appschema users] 2022-04-02T09:54:13Z Mathieu <mathieu@example.com> # Add
 insert_flip [flips users appschema] 2022-04-02T09:59:03Z Mathieu <mathieu@example.com> # Creates a function to insert a flip.
 delete_flip [flips users appschema] 2022-04-02T09:59:23Z Mathieu <mathieu@example.com> # Creates a function to delete a flip.
 @v1.0.0-dev2 2022-04-02T10:05:56Z Mathieu <mathieu@example.com> # Tag v1.0.0-dev2.
-
-pgcrypto 2022-04-02T10:09:41Z Mathieu <mathieu@example.com> # Load pgcrypto extension.
-insert_user [insert_user@v1.0.0-dev2 pgcrypto] 2022-04-02T10:13:14Z Mathieu <mathieu@example.com> # Change insert_user to use pgcrypto.
-change_pass [change_pass@v1.0.0-dev2 pgcrypto] 2022-04-02T10:16:14Z Mathieu <mathieu@example.com> # Change change_pass to use pgcrypto.
