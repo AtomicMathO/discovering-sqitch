@@ -11,3 +11,4 @@ change_pass [users appschema] 2022-04-02T09:36:15Z Mathieu <mathieu@example.com>
 flips [appschema users] 2022-04-02T09:54:13Z Mathieu <mathieu@example.com> # Adds table for storing flips.
 insert_flip [flips users appschema] 2022-04-02T09:59:03Z Mathieu <mathieu@example.com> # Creates a function to insert a flip.
 delete_flip [flips users appschema] 2022-04-02T09:59:23Z Mathieu <mathieu@example.com> # Creates a function to delete a flip.
+@v1.0.0-dev2 2022-04-02T10:05:56Z Mathieu <mathieu@example.com> # Tag v1.0.0-dev2.
