@@ -3,3 +3,4 @@
 %uri=https://github.com/AtomicMathO/discovering-sqitch
 
 appschema 2022-04-02T09:12:27Z Mathieu <mathieu@example.com> # Add schema for all flipr objects.
+users [appschema] 2022-04-02T09:27:21Z Mathieu <mathieu@example.com> # Creates table to track our users.
